@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>ET</RootNamespace>
+    <LangVersion>8</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE2_0;SERVER;NOT_CLIENT</DefineConstants>
+    <OutputPath>..\..\Bin\</OutputPath>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE2_0;SERVER;NOT_CLIENT</DefineConstants>
+    <OutputPath>..\..\Bin\</OutputPath>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Other\**" />
+    <Compile Include="..\..\Unity\Assets\Script\Hotfix\Demo\Move\MoveComponentSystem.cs" Link="Demo\Move\MoveComponentSystem.cs" />
+    <Compile Include="..\..\Unity\Assets\Script\Hotfix\Module\Config\ConfigComponentSystem.cs" Link="Module\Config\ConfigComponentSystem.cs" />
+    <Compile Include="..\..\Unity\Assets\Script\Hotfix\Module\Message\MessageDispatcherComponentSystem.cs" Link="Module\Message\MessageDispatcherComponentSystem.cs" />
+    <Compile Include="..\..\Unity\Assets\Script\Hotfix\Module\Message\NetKcpComponentSystem.cs" Link="Module\Message\NetKcpComponentSystem.cs" />
+    <Compile Include="..\..\Unity\Assets\Script\Hotfix\Module\Message\NetThreadComponentSystem.cs" Link="Module\Message\NetThreadComponentSystem.cs" />
+    <Compile Include="..\..\Unity\Assets\Script\Hotfix\Module\Message\SessionAcceptTimeoutComponentSystem.cs" Link="Module\Message\SessionAcceptTimeoutComponentSystem.cs" />
+    <Compile Include="..\..\Unity\Assets\Script\Hotfix\Module\Message\SessionIdleCheckerComponentSystem.cs" Link="Module\Message\SessionIdleCheckerComponentSystem.cs" />
+    <Compile Include="..\..\Unity\Assets\Script\Hotfix\Module\Numeric\NumericChangeEvent_NotifyWatcher.cs" Link="Module\Message\NumericChangeEvent_NotifyWatcher.cs" />
+    <Compile Include="..\..\Unity\Assets\Script\Hotfix\Module\Numeric\NumericWatcher_Hp_ShowUI.cs" Link="Module\Message\NumericWatcher_Hp_ShowUI.cs" />
+
+    <Compile Include="..\..\Unity\Assets\Hotfix\Module\AI\**\*.cs">
+      <Link>Module\AI\%(RecursiveDir)%(FileName)%(Extension)</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Model\Server.Model.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Module\Config\" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+        <RootNamespace>ET</RootNamespace>
+        <LangVersion>8</LangVersion>
+    </PropertyGroup>
+    
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+    
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <OutputPath>./Bin</OutputPath>
+      <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+    
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <OutputPath>./Bin</OutputPath>
+      <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    </PropertyGroup>
+    
+    <ItemGroup>
+      <Compile Include="..\..\Unity\Assets\Script\Model\Core\Object\BaseAttribute.cs" Link="BaseAttribute.cs" />
+      <Compile Include="..\..\Unity\Assets\Script\Model\Module\Config\ConfigAttribute.cs" Link="ConfigAttribute.cs" />
+      <Compile Include="..\..\Unity\Assets\Script\Model\Module\Config\IConfig.cs" Link="IConfig.cs" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="EPPlus" Version="5.5.2" />
+      <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="2.9.0" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <None Update="Template.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\..\Server\ThirdParty\Server.ThirdParty.csproj" />
+    </ItemGroup>
+
+</Project>

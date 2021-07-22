@@ -1,0 +1,17 @@
+{
+    "name": "Unity.Sripte",
+    "rootNamespace": "",
+    "references": [
+        "Unity.ThirdParty",
+        "Unity.Cold"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+H:\Test6.0_ILruntime\Tools\Proto2CS\Bin\Proto2CS.exe
+H:\Test6.0_ILruntime\Tools\Proto2CS\Bin\Proto2CS.deps.json
+H:\Test6.0_ILruntime\Tools\Proto2CS\Bin\Proto2CS.runtimeconfig.json
+H:\Test6.0_ILruntime\Tools\Proto2CS\Bin\Proto2CS.runtimeconfig.dev.json
+H:\Test6.0_ILruntime\Tools\Proto2CS\Bin\Proto2CS.dll
+H:\Test6.0_ILruntime\Tools\Proto2CS\Bin\ref\Proto2CS.dll
+H:\Test6.0_ILruntime\Tools\Proto2CS\Bin\Proto2CS.pdb
+H:\Test6.0_ILruntime\Tools\Proto2CS\obj\Debug\Proto2CS.csprojAssemblyReference.cache
+H:\Test6.0_ILruntime\Tools\Proto2CS\obj\Debug\Proto2CS.GeneratedMSBuildEditorConfig.editorconfig
+H:\Test6.0_ILruntime\Tools\Proto2CS\obj\Debug\Proto2CS.AssemblyInfoInputs.cache
+H:\Test6.0_ILruntime\Tools\Proto2CS\obj\Debug\Proto2CS.AssemblyInfo.cs
+H:\Test6.0_ILruntime\Tools\Proto2CS\obj\Debug\Proto2CS.csproj.CoreCompileInputs.cache
+H:\Test6.0_ILruntime\Tools\Proto2CS\obj\Debug\Proto2CS.dll
+H:\Test6.0_ILruntime\Tools\Proto2CS\obj\Debug\ref\Proto2CS.dll
+H:\Test6.0_ILruntime\Tools\Proto2CS\obj\Debug\Proto2CS.pdb
+H:\Test6.0_ILruntime\Tools\Proto2CS\obj\Debug\Proto2CS.genruntimeconfig.cache

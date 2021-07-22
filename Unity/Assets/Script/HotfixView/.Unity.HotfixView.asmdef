@@ -1,0 +1,22 @@
+{
+    "name": "Unity.HotfixView",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Hotfix",
+        "Unity.Model",
+        "Unity.ModelView",
+        "Unity.ThirdParty",
+        "Unity.Cold"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
