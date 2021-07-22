@@ -5963,11 +5963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Test6.0_ILruntime\\Server\\Model\\Server.Model.csproj",
+      "projectUniqueName": "H:\\et6.0-ilruntime\\Server\\Model\\Server.Model.csproj",
       "projectName": "Server.Model",
-      "projectPath": "H:\\Test6.0_ILruntime\\Server\\Model\\Server.Model.csproj",
+      "projectPath": "H:\\et6.0-ilruntime\\Server\\Model\\Server.Model.csproj",
       "packagesPath": "C:\\Users\\My\\.nuget\\packages\\",
-      "outputPath": "H:\\Test6.0_ILruntime\\Server\\Model\\obj\\",
+      "outputPath": "H:\\et6.0-ilruntime\\Server\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\My\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5984,8 +5984,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "H:\\Test6.0_ILruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj": {
-              "projectPath": "H:\\Test6.0_ILruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj"
+            "H:\\et6.0-ilruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj": {
+              "projectPath": "H:\\et6.0-ilruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj"
             }
           }
         }
