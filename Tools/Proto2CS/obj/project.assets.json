@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Test6.0_ILruntime\\Tools\\Proto2CS\\Proto2CS.csproj",
+      "projectUniqueName": "H:\\et6.0-ilruntime\\Tools\\Proto2CS\\Proto2CS.csproj",
       "projectName": "Proto2CS",
-      "projectPath": "H:\\Test6.0_ILruntime\\Tools\\Proto2CS\\Proto2CS.csproj",
+      "projectPath": "H:\\et6.0-ilruntime\\Tools\\Proto2CS\\Proto2CS.csproj",
       "packagesPath": "C:\\Users\\My\\.nuget\\packages\\",
-      "outputPath": "H:\\Test6.0_ILruntime\\Tools\\Proto2CS\\obj\\",
+      "outputPath": "H:\\et6.0-ilruntime\\Tools\\Proto2CS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\My\\AppData\\Roaming\\NuGet\\NuGet.Config",

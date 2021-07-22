@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Test6.0_ILruntime\\Tools\\ExcelExporter\\ExcelExporter.csproj": {}
+    "H:\\et6.0-ilruntime\\Tools\\ExcelExporter\\ExcelExporter.csproj": {}
   },
   "projects": {
-    "H:\\Test6.0_ILruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj": {
+    "H:\\et6.0-ilruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Test6.0_ILruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj",
+        "projectUniqueName": "H:\\et6.0-ilruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj",
         "projectName": "Server.ThirdParty",
-        "projectPath": "H:\\Test6.0_ILruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj",
+        "projectPath": "H:\\et6.0-ilruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj",
         "packagesPath": "C:\\Users\\My\\.nuget\\packages\\",
-        "outputPath": "H:\\Test6.0_ILruntime\\Server\\ThirdParty\\obj\\",
+        "outputPath": "H:\\et6.0-ilruntime\\Server\\ThirdParty\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\My\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "H:\\Test6.0_ILruntime\\Tools\\ExcelExporter\\ExcelExporter.csproj": {
+    "H:\\et6.0-ilruntime\\Tools\\ExcelExporter\\ExcelExporter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Test6.0_ILruntime\\Tools\\ExcelExporter\\ExcelExporter.csproj",
+        "projectUniqueName": "H:\\et6.0-ilruntime\\Tools\\ExcelExporter\\ExcelExporter.csproj",
         "projectName": "ExcelExporter",
-        "projectPath": "H:\\Test6.0_ILruntime\\Tools\\ExcelExporter\\ExcelExporter.csproj",
+        "projectPath": "H:\\et6.0-ilruntime\\Tools\\ExcelExporter\\ExcelExporter.csproj",
         "packagesPath": "C:\\Users\\My\\.nuget\\packages\\",
-        "outputPath": "H:\\Test6.0_ILruntime\\Tools\\ExcelExporter\\obj\\",
+        "outputPath": "H:\\et6.0-ilruntime\\Tools\\ExcelExporter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\My\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\Test6.0_ILruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj": {
-                "projectPath": "H:\\Test6.0_ILruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj"
+              "H:\\et6.0-ilruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj": {
+                "projectPath": "H:\\et6.0-ilruntime\\Server\\ThirdParty\\Server.ThirdParty.csproj"
               }
             }
           }
